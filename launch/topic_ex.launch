@@ -1,0 +1,5 @@
+<launch>
+  <!-- turtlebot_teleop_key already has its own built in velocity smoother -->
+  <node pkg="topic_ex" type="publish_age" name="topic_age"  output="screen">
+  </node>
+</launch>
